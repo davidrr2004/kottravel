@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760526109356",
+    "project_id": "kottravel-2d580",
+    "storage_bucket": "kottravel-2d580.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760526109356:android:770036a78fa5bd8af77d09",
+        "android_client_info": {
+          "package_name": "com.example.kottravel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcZsAfwX-RjmsrQM0FxqEfHXe6fBT1X98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

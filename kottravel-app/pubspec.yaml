@@ -1,0 +1,46 @@
+name: Kottravel
+description: "Track real-time traffic conditions, find the best routes, and navigate Kottakkal with confidence.Avoid congested areas and reach your destination faster."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0-323.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.15.2
+  firebase_database: ^11.3.10
+  latlong2: ^0.9.1
+  flutter_map: ^6.1.0
+  flutter_map_tile_caching: ^9.0.1  # For offline map caching
+  path_provider: ^2.1.5  # For working with storage paths
+  permission_handler: ^12.0.1  # For requesting storage permissions
+  http: ^1.4.0
+  geolocator: ^11.0.0  # For getting user's location
+  intl: ^0.19.0  # For date formatting
+  flutter_launcher_icons: ^0.14.4
+  path: ^1.9.0
+  image_picker: ^1.0.7  # For picking images from gallery or camera
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Regular.ttf
+        - asset: assets/fonts/Manrope-VariableFont_wght.ttf
+          weight: 700

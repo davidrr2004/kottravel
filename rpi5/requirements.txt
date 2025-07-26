@@ -1,0 +1,10 @@
+opencv-python==4.8.1.78
+ultralytics==8.0.196
+roboflow==1.1.9
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+numpy==1.24.3
+Pillow==10.0.0
+matplotlib==3.7.2
+requests==2.31.0
